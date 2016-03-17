@@ -5,14 +5,15 @@
    xmlns="http://www.w3.org/ns/widgets"
    xmlns:gap="http://phonegap.com/ns/1.0">
 
-<name>breacon 1.0</name>
-<description> Reading BLE Beacons </description>
+<name>Engenharia de Manufatura Camera 1.0</name>
+<description> Get photos </description>
 <author email="jardel@jatecnologia.com" href="http://jatecnologia.com"> Jardel Vieira </author>
 <content src="camera.html" />
 
 <gap:plugin name="cordova-plugin-device-motion" source="npm" />
 <gap:plugin name="cordova-plugin-vibration" source="npm" />
 <plugin name="com.evothings.ble" spec="1.0.0" source="pgb" />
+<feature name="http://api.phonegap.com/1.0/camera"/>
 
 <access origin="*" /> 
 <plugin name="cordova-plugin-whitelist" version="1" />
