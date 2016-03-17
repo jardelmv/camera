@@ -8,7 +8,7 @@
 <name>breacon 1.0</name>
 <description> Reading BLE Beacons </description>
 <author email="jardel@jatecnologia.com" href="http://jatecnologia.com"> Jardel Vieira </author>
-<content src="index.html" />
+<content src="camera.html" />
 
 <gap:plugin name="cordova-plugin-device-motion" source="npm" />
 <gap:plugin name="cordova-plugin-vibration" source="npm" />
