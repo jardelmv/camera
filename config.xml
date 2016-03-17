@@ -13,6 +13,7 @@
 <gap:plugin name="cordova-plugin-device-motion" source="npm" />
 <gap:plugin name="cordova-plugin-vibration" source="npm" />
 <plugin name="com.evothings.ble" spec="1.0.0" source="pgb" />
+<gap:plugin name="cordova-plugin-camera" source="npm"/>
 <!--<feature name="http://api.phonegap.com/1.0/camera"/>-->
 
 <access origin="*" /> 
@@ -26,7 +27,7 @@
 
 <platform name="android">
    <allow-intent href="market:*" />
-   <icon src="breacon_ico.png" platform="android" qualifier="ldpi" />
+   <icon src="" platform="android" qualifier="ldpi" />
 </platform>
 
 <platform name="ios">
